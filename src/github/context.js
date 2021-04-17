@@ -34,6 +34,7 @@ function parseActionEnv() {
 
 		// Information provided by action user
 		token: getInput("github_token", true),
+		auto_fix_token: getInput("auto_fix_token", true),
 	};
 }
 
